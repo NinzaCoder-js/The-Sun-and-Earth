@@ -120,3 +120,62 @@ body {
     width: 100%;
     font-style: italic;
 }
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 25em;
+        height: 25em;
+    }
+
+    .sun {
+        top: 7.5em;
+        left: 7.5em;
+        width: 6em;
+        height: 6em;
+    }
+
+    .earth {
+        top: 2.5em;
+        left: 2.5em;
+        width: 20em;
+        height: 20em;
+    }
+
+    .earth::before {
+        top: 1.8em;
+        right: 1.8em;
+        width: 2em;
+        height: 2em;
+    }
+
+    .moon {
+        width: 5em;
+        height: 5em;
+    }
+
+    .moon::before {
+        top: 0.5em;
+        right: 0.2em;
+        width: 0.8em;
+        height: 0.8em;
+    }
+
+    .title {
+        font-size: 1.5em;
+        top: 3%;
+    }
+
+    .subtitle {
+        font-size: 1em;
+        top: 12%;
+    }
+
+    .names {
+        font-size: 1em;
+    }
+
+    .date {
+        font-size: 0.9em;
+    }
+}
