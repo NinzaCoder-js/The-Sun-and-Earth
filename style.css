@@ -78,3 +78,45 @@ body {
         transform: rotate(360deg);
     }
 }
+
+.title {
+    position: absolute;
+    top: 5%;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 20px #f0f;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+}
+
+.subtitle {
+    position: absolute;
+    top: 15%;
+    font-size: 1.5em;
+    color: #ffefef;
+    text-shadow: 0 0 10px #0ff;
+    text-align: center;
+    width: 100%;
+    font-family: 'Georgia', serif;
+}
+
+.names {
+    position: absolute;
+    bottom: 10%;
+    font-size: 1.5em;
+    color: #ff69b4;
+    text-align: center;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.date {
+    position: absolute;
+    bottom: 5%;
+    font-size: 1em;
+    color: #aaa;
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+}
