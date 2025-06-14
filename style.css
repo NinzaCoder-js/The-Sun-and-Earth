@@ -81,7 +81,7 @@ body {
 
 .title {
     position: absolute;
-    top: 5%;
+    top: 0.5%;
     font-size: 3em;
     color: #fff;
     text-shadow: 0 0 20px #f0f;
@@ -92,7 +92,7 @@ body {
 
 .subtitle {
     position: absolute;
-    top: 15%;
+    top: 10%;
     font-size: 1.5em;
     color: #ffefef;
     text-shadow: 0 0 10px #0ff;
