@@ -1,1 +1,1 @@
-# The-Sun-and-Earth
+# The-Earth-around-the-Sun
